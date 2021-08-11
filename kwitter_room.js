@@ -25,7 +25,7 @@
         //Start code
         console.log("Room name - " + Room_names);
         row = "<div class='room_name' id=" + Room_names + " onclick='redirectToRoomPage(this.id);'>#" + Room_names + "</div><hr>";
-        document.getElementById("output").innerHTML = row;
+        document.getElementById("output").innerHTML += row;
         //End code
       });
     });
